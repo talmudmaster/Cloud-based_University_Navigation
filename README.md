@@ -1,12 +1,12 @@
 <div align="center">
 
-![展示](README/logo.png) 
+![logo](https://s1.ax1x.com/2023/05/12/p9sRWEd.png) 
     <h1> 云上高校导航 小程序 </h1>
 
-[![test](https://gitee.com/talmudmaster/Cloud-based_University_Navigation/badge/star.svg?theme=dark)](https://gitee.com/talmudmaster/GLU-Campus-Guide)
-[![](https://img.shields.io/github/stars/talmudmaster/Cloud-based_University_Navigation)](https://github.com/talmudmaster/Cloud-based_University_Navigation)
-[![test](https://img.shields.io/badge/license-MulanPSL-green)](LICENSE)
-[![test](https://img.shields.io/badge/platform-微信小程序-green)](https://developers.weixin.qq.com/miniprogram/dev/component/)
+[![gitee_star](https://gitee.com/talmudmaster/Cloud-based_University_Navigation/badge/star.svg?theme=dark)](https://gitee.com/talmudmaster/GLU-Campus-Guide)
+[![github_star](https://img.shields.io/github/stars/talmudmaster/Cloud-based_University_Navigation)](https://github.com/talmudmaster/Cloud-based_University_Navigation)
+[![license](https://img.shields.io/badge/license-MulanPSL-green)](LICENSE)
+[![platform](https://img.shields.io/badge/platform-微信小程序-green)](https://developers.weixin.qq.com/miniprogram/dev/component/)
 
 提供**校园导航和校园信息**服务，具有出色的用户体验  
 
@@ -23,20 +23,20 @@
 ---
 # 📖 介绍  
 
-“云上高校导航”是一套基于小程序云开发的校园导航类系统开发方案，该开发方案可供开发者进行二次开发，用于解决师生和访客的校园出行需求。
+&emsp;&emsp;“云上高校导航”是一套基于小程序云开发的校园导航类系统开发方案，该开发方案可供开发者进行二次开发，用于解决师生和访客的校园出行需求。
 
-该型小程序致力于为学生、教职工和游客提供便利，包括但不限于方便快捷、提升效率、促进交流、宣传学校和改善体验。
+&emsp;&emsp;该型小程序致力于为学生、教职工和游客提供便利，包括但不限于方便快捷、提升效率、促进交流、宣传学校和改善体验。
 
 ---
 # 🤩 预览
 
-![展示](README/show_1.png)  
+![show_1](https://s1.ax1x.com/2023/05/12/p9sRh4I.png)  
 
-![展示](README/show_2.png)  
+![show_2](https://s1.ax1x.com/2023/04/16/p99G0Jg.png)   
 
-![展示](README/show_3.png)  
+![show_3](https://s1.ax1x.com/2023/05/12/p9sRfUA.png)  
 
-![展示](README/show_4.png)  
+![show_4](https://s1.ax1x.com/2023/04/16/p99GYLt.png)  
 
 ---
 # ✨ 项目优势及创新
@@ -62,12 +62,12 @@
 ---
 # 📝 使用说明
 
-![使用说明](README/instruction.png)
+![instruction](https://s1.ax1x.com/2023/04/16/p99GGQA.png)
 
 ---
 # 📚 页面关系 
 
-![页面关系图](README/page.png)
+![page](https://s1.ax1x.com/2023/05/12/p9sR2HH.png)
 
 ---
 # ⚙ 安装教程
@@ -78,11 +78,11 @@
 
 2. 使用 微信开发者工具 **导入项目**（导入时要点进项目文件夹，AppID改为自己的）
 
-![](README/daoru.png)
+![import](https://s1.ax1x.com/2023/04/20/p9kmUO0.png)
 
 3. 填写 utils.js 中的 [腾讯位置服务API](https://blog.csdn.net/weixin_45940369/article/details/130529860) 和 [和风天气API](https://blog.csdn.net/weixin_45940369/article/details/130531131) 的 key（点击查看教程）
 
-![](README/tianxieapi.png)
+![write_api](https://s1.ax1x.com/2023/04/20/p9kmNyq.png)
 
 4. 进入 [小程序管理网站](https://mp.weixin.qq.com/) ，申请 [小程序地理位置接口](https://blog.csdn.net/weixin_45940369/article/details/128951841) 和 [腾讯位置路线规划插件](https://blog.csdn.net/weixin_45940369/article/details/129927351)（点击查看教程）
 
@@ -150,14 +150,14 @@ https://servicewechat.com
 
 7. 在 微信开发者工具 的 路线规划页面 会出现奇怪的一直向下拉动画面的情况。这个是bug，不用管，在手机上预览是正常的。
 
-![bug](README/bug.png)
+![bug](https://s1.ax1x.com/2023/05/07/p9dpNYF.png)
 
 ---
 # 🧭 开发指引
 
 本小程序开发所使用技术及外部接口  
 
-![](README/technology.png)
+![technology](https://s1.ax1x.com/2023/05/07/p9dpUW4.png)
 
 如不想花太多时间在前端，可考虑使用 **UI组件库**。  
 
@@ -196,7 +196,7 @@ https://servicewechat.com
 - 如果腾讯地图的展示效果原本就很好，就无需再覆盖校园地图。
 
 - **更好的路线导航方式** 是自己绘制“图”，并使用最短路径算法实现（下面给出案例图和讲解）。     
-![构建图](README/build_map.png)  
+![build_map](https://s1.ax1x.com/2023/04/16/p99GJsI.png) 
 图中红色点为地点，蓝色点为道路点。蓝色线段即为点之间的关系（一个道路点能够到达其他的什么点）。就可以模拟出“图”以及其所有点之间的关系。点与点之间“路”的长度可以通过公式计算出（**注意地球是球体-曲面，经纬度计算距离的公式可以百度**）。有了点之间的关系以及“路”（边）的长度，通过最短路径算法计算出最短路经过的所有点并通过ployline显示到地图上（可以尝试使用动画/轨迹来渲染路线）。  
 
 - **更好的展示效果** 可以考虑加入室内（外）导航功能、AR实景导航功能  
@@ -232,8 +232,8 @@ https://servicewechat.com
 ---
 # ❤ 致谢
 
-非常感谢以下的小程序开发者和B站up，以及教会、锻炼我PS能力的校红会小伙伴  
-让我学到了很多，得以把小程序做到今天这样完整  
-![致谢](README/zhixie.png)
+&emsp;&emsp;非常感谢以下的小程序开发者和B站up，以及教会、锻炼我PS能力的校红会小伙伴。让我学到了很多，得以把小程序做到今天这样完整。  
 
-同时也要感谢b站 @宙克儿 测试云开发项目的安装和找出问题
+![thank](https://s1.ax1x.com/2023/04/16/p99GwFS.png)
+
+&emsp;&emsp;同时也要感谢b站 @宙克儿 帮忙测试云开发项目的安装，帮我找出了许多问题
