@@ -1,0 +1,167 @@
+<!--pages/school/school.wxml-->
+<view style="height: auto;">
+    <view class="list-landscape">
+        <view class="list-landscape-title">
+            校园风光
+        </view>
+        <view class="list-landscape-container">
+            <swiper class="list-landscape-container-swiper" next-margin="20px" indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{activeColor}}" autoplay="{{autoplay}}" circular="{{circular}}" interval="{{interval}}" duration="{{duration}}">
+                <block wx:for="{{background}}" wx:key="*this">
+                    <swiper-item>
+                        <view class="list-landscape-container-swiper-item">
+                            <image class="list-landscape-container-swiper-item-img" mode="widthFix" bindload="imgHeight" src="{{item}}"></image>
+                        </view>
+                    </swiper-item>
+                </block>
+            </swiper>
+
+            <view class="list-landscape-container-icon" style="margin-left:306rpx">
+                <image class="list-landscape-container-icon-img" src="{{school_icon_no}}" />
+            </view>
+
+            <view class="list-landscape-container-text">
+                云上高校
+            </view>
+        </view>
+    </view>
+
+    <view class="list-info">
+        <view class="list-info-container">
+            <view class="list-info-container-titletext1">
+                校训·校规·校纪·校风
+            </view>
+
+            <view class="list-info-container-text">
+                建校时间：20xx年
+            </view>
+
+            <view class="list-info-container-text">
+                院校类型：综合类
+            </view>
+        </view>
+
+        <view class="list-info-container">
+            <view class="list-info-container-titletext2">
+                绿色创新优秀高校
+            </view>
+
+            <view class="list-info-container-text">
+                办校类型：x办院校
+            </view>
+
+            <view class="list-info-container-text">
+                所在地：省份·城市
+            </view>
+        </view>
+    </view>
+
+    <view class="list-laba">
+        <image class="list-laba-image" src="{{laba}}" />
+        <view class="list-laba-text">
+            欢迎使用云上高校导航小程序
+        </view>
+    </view>
+
+    <view class="list-row">
+        <view class="list-row-container" bindtap="tapmenu1">
+            <image class="list-row-container-img" src="{{new}}" />
+            <view class="list-row-container-text">
+                学校信息
+            </view>
+        </view>
+
+        <view class="list-row-container" bindtap="tapmenu2">
+            <image class="list-row-container-img" src="{{bus}}" />
+            <view class="list-row-container-text">
+                交通出行
+            </view>
+        </view>
+
+        <view class="list-row-container" bindtap="taptojianjie">
+            <image class="list-row-container-img" src="{{school_icon}}" />
+            <view class="list-row-container-text">
+                学校简介
+            </view>
+        </view>
+
+        <view class="list-row-container" bindtap="tapmenu4">
+            <image class="list-row-container-img" src="{{wechat}}" />
+            <view class="list-row-container-text">
+                高校官微
+            </view>
+        </view>
+
+        <view class="list-row-container" bindtap="tapmenu5">
+            <image class="list-row-container-img" src="{{magazine}}" />
+            <view class="list-row-container-text">
+                招生官微
+            </view>
+        </view>
+    </view>
+
+    <view class="list-l">
+        <view class="list-list" bindtap="taptohome">
+            <view class="list-list-left">
+                <image class="list-list-left-icon" src="{{home}}" />
+                <view class="list-list-left-text">回到首页</view>
+            </view>
+            <image class="list-list-right" src="{{right_arrow}}" />
+        </view>
+
+        <view class="list-list" bindtap="taplist3">
+            <view class="list-list-left">
+                <image class="list-list-left-icon" src="{{message}}" />
+                <view class="list-list-left-text">软件声明</view>
+            </view>
+            <image class="list-list-right" src="{{right_arrow}}" />
+        </view>
+
+        <view class="list-list" bindtap="tapcontact">
+            <view class="list-list-left">
+                <image class="list-list-left-icon" src="{{users}}" />
+                <view class="list-list-left-text">联系作者</view>
+            </view>
+            <image class="list-list-right" src="{{right_arrow}}" />
+        </view>
+
+        <button class="list-list" style="width: 100%;" open-type="feedback">
+            <view class="list-list-left">
+                <image class="list-list-left-icon" src="{{chat}}" />
+                <view class="list-list-left-text normal">提点意见</view>
+            </view>
+            <image class="list-list-right" src="{{right_arrow}}" />
+        </button>
+
+        <view class="list-list" bindtap="tapadmin">
+            <view class="list-list-left">
+                <image class="list-list-left-icon" src="{{admin}}" />
+                <view class="list-list-left-text">管理界面</view>
+            </view>
+            <image class="list-list-right" src="{{right_arrow}}" />
+        </view>
+
+        <view class="list-list" bindtap="tapopenid">
+            <view class="list-list-left">
+                <image class="list-list-left-icon" src="{{admin}}" />
+                <view class="list-list-left-text">获取openid</view>
+            </view>
+            <image class="list-list-right" src="{{right_arrow}}" />
+        </view>
+    </view>
+
+    <view class="list-laba">
+        <image class="list-laba-image" src="{{laba}}" />
+        <view class="list-laba-smalltext">
+            如果你觉得小程序不错,不妨推荐给你的朋友们吧!
+        </view>
+    </view>
+
+    <button class="forward-button" type="primary" open-type="share">
+        推 荐 给 好 友
+    </button>
+
+    <view class="bottom-font">
+        云上高校导航小程序 | 版权归开发者所有
+    </view>
+
+</view>
