@@ -18,9 +18,9 @@
             {{miniprogram_name}}小程序 | 毕业设计
         </view>
 
-        <view class="card-container-text" style="margin-bottom: 10px;">
-            2019级软件工程吴警 | 指导老师:韦林
-        </view>
+        <!-- <view class="card-container-text" style="margin-bottom: 10px;">
+            2019级软件工程xx | 指导老师:xx
+        </view> -->
 
         <view class="card-container-text">
             版权归{{school_name_full}}开发者所有!
