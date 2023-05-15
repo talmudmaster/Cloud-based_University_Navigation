@@ -73,7 +73,8 @@ module.exports = {
     grey_bus: "../../images/grey_bus.png",
     guilinchuxingwang: "../../images/guilinchuxingwang.png",
     // 软件声明
-    notes: "../../images/notes.png",
+    message: "../../images/message.png",
+	notes: "../../images/notes.png",
     zhixie: "../../images/zhixie.png",
     zhixie_kaifazhe: "https://cdnjson.com/images/2023/02/26/zhixie_kaifazhe.jpg",
     zhixie_up: "https://cdnjson.com/images/2023/02/26/zhixie_up.jpg",

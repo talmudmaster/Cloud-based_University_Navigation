@@ -14,7 +14,7 @@
 
 **[B站讲解演示教学视频合集](https://space.bilibili.com/384844986/channel/collectiondetail?sid=1197124)**&emsp;**[CSDN开发笔记](https://blog.csdn.net/weixin_45940369/category_12257059.html)**
 
-仅需修改地图配置文件和云端数据，即可**适配任意校园**  
+仅需修改部分代码和云端数据，即可**适配任意校园**  
 
 ☑️地图选点与搜索  ☑️地图路线规划  ☑️校园信息展示  ☑️在线管理数据
 
@@ -90,7 +90,7 @@ https://servicewechat.com
 
 7. 修改项目/二次开发（实在太长了就放CSDN了，见谅）：
 - CSDN：[云开发项目复刻教程](https://blog.csdn.net/weixin_45940369/article/details/130693234) **不感兴趣或没时间可以不看，直接看下面的**
-- CSDN：[云开发项目二次开发教程](https://blog.csdn.net/weixin_45940369/article/details/130692247)
+- CSDN：[云开发项目二次开发教程](https://blog.csdn.net/weixin_45940369/article/details/130695720)
 
 8. **刷新或重启** 项目
 
