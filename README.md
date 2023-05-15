@@ -1,6 +1,6 @@
 <div align="center">
 
-![logo](https://s1.ax1x.com/2023/05/12/p9sRWEd.png) 
+![logo](https://s1.ax1x.com/2023/05/16/p92Ux9U.png) 
     <h1> 云上高校导航 小程序 </h1>
 
 [![gitee_star](https://gitee.com/talmudmaster/Cloud-based_University_Navigation/badge/star.svg?theme=dark)](https://gitee.com/talmudmaster/GLU-Campus-Guide)
@@ -12,7 +12,7 @@
 
 同时也对**小屏手机和平板**做了前端适配优化
 
-**[B站讲解演示教学视频合集](https://space.bilibili.com/384844986/channel/collectiondetail?sid=1197124)**&emsp;**[CSDN开发笔记](https://blog.csdn.net/weixin_45940369/article/details/130613289)**
+**[B站讲解演示教学视频合集](https://space.bilibili.com/384844986/channel/collectiondetail?sid=1197124)**&emsp;**[CSDN开发笔记](https://blog.csdn.net/weixin_45940369/category_12257059.html)**
 
 仅需修改地图配置文件和云端数据，即可**适配任意校园**  
 
@@ -56,8 +56,7 @@
 - ✅ 路线规划
 - ✅ 校园信息
 - ✅ 可跳转至学校官微/招生小程序
-- ✅ 在线管理地点数据
-- ✅ 在线上传修改校园地图、封面、轮播图及视频
+- ✅ 在线管理地点数据、媒体文件（校园地图、封面、轮播图及视频）
 
 ---
 # 📝 使用说明
@@ -65,28 +64,23 @@
 ![instruction](https://s1.ax1x.com/2023/04/16/p99GGQA.png)
 
 ---
-# 📚 页面关系 
-
-![page](https://s1.ax1x.com/2023/05/12/p9sR2HH.png)
-
----
 # ⚙ 安装教程
 
- b站安装教程视频：**[以后补上](https://space.bilibili.com/384844986/channel/collectiondetail?sid=1197124)**
+1. 开通 **云开发** 功能（首月免费，次月19.9），**激活** 云数据库、云存储和云函数 功能。
 
-1. 将 项目 文件夹 复制到电脑的项目路径下（比如 D:\WeChatProjects），强烈建议不要直接扔桌面上。
+2. 将 项目 文件夹下 **最新版本的** 文件夹下的 **Cloud-based_University_Navigation** 整个文件夹 复制到项目路径下（比如 D:\WeChatProjects），**强烈建议不要直接扔桌面上**。
 
-2. 使用 微信开发者工具 **导入项目**（导入时要点进项目文件夹，AppID改为自己的）
+3. 使用 微信开发者工具 **导入项目**（导入时要**点进项目文件夹里**，AppID改为自己的）
 
 ![import](https://s1.ax1x.com/2023/04/20/p9kmUO0.png)
 
-3. 填写 utils.js 中的 [腾讯位置服务API](https://blog.csdn.net/weixin_45940369/article/details/130529860) 和 [和风天气API](https://blog.csdn.net/weixin_45940369/article/details/130531131) 的 key（点击查看教程）
+4. 填写 utils.js 中的 [腾讯位置服务API](https://blog.csdn.net/weixin_45940369/article/details/130529860) 和 [和风天气API](https://blog.csdn.net/weixin_45940369/article/details/130531131) 的 key（点击查看教程）
 
 ![write_api](https://s1.ax1x.com/2023/04/20/p9kmNyq.png)
 
-4. 进入 [小程序管理网站](https://mp.weixin.qq.com/) ，申请 [小程序地理位置接口](https://blog.csdn.net/weixin_45940369/article/details/128951841) 和 [腾讯位置路线规划插件](https://blog.csdn.net/weixin_45940369/article/details/129927351)（点击查看教程）
+5. 进入 [小程序管理后台](https://mp.weixin.qq.com/) ，申请 [小程序地理位置接口](https://blog.csdn.net/weixin_45940369/article/details/128951841) 和 [腾讯位置路线规划插件](https://blog.csdn.net/weixin_45940369/article/details/129927351)（点击查看教程）
 
-5. 进入 [小程序管理网站](https://mp.weixin.qq.com/) - 开发 - 开发管理 - 开发设置 - 服务器域名，填写 **request合法域名**（API的域名）
+6. 进入 [小程序管理后台](https://mp.weixin.qq.com/) - 开发 - 开发管理 - 开发设置 - 服务器域名，填写 **request合法域名**（地图和天气API的域名）
 ```
 https://devapi.qweather.com
 https://geoapi.qweather.com
@@ -94,44 +88,13 @@ https://restapi.amap.com
 https://servicewechat.com
 ```
 
-## **云开发配置部署**
+7. 修改项目/二次开发（实在太长了就放CSDN了，见谅）：
+- CSDN：[云开发项目复刻教程](https://blog.csdn.net/weixin_45940369/article/details/130693234) **不感兴趣或没时间可以不看，直接看下面的**
+- CSDN：[云开发项目二次开发教程](https://blog.csdn.net/weixin_45940369/article/details/130692247)
 
-1. 开通 **云开发** 功能（首月免费，次月19.9）
+8. **刷新或重启** 项目
 
-2. **激活** 云数据库、云存储和云函数 功能
-
-3. 将 文件 下的 “学校”文件夹 上传至 **云存储**
-
-4. 将 文件/数据库文件 下的 site.json 和 resource.json 中的  
->cloud://gluguide-0g65cvsv649006da.676c-gluguide-0g65cvsv649006da-1316857255/  
-
-批量替换为自己的文件前缀路径( 云开发-云存储-学校-随便进一个文件夹-File ID的前面一段 )
-
-5. 将 文件/数据库文件 下的 resource.json 中 第一条记录的 img字段
->https://676c-gluguide-0g65cvsv649006da-1316857255.tcb.qcloud.la/1679798975506.png
-
-替换成自己的文件路径前段( 云开发-云存储-学校-素材-点击map_bottom.png-下载地址[截取到.png就行，后面的路径不用了] )
-
-（地图图片的性质比较特殊，要获取下载地址填入数据库才能有效果）
-
-6. 将 文件/数据库文件 下的 resource.json 中 第一条记录的 openid字段 改成自己的 openid
->不知道自己的 openid 的话，就点击小程序 校园信息页 的 获取openid 按钮，看一下控制台就能看到 openid 了（获取openid后就可以在 页面中 把这个功能栏给删了）
-
-7. 将 文件/数据库文件 下的 所有json文件 导入云数据库（ 先建立对应名称的集合，再对应导入 ）
-
-8. 将小程序 cloudfunctions文件夹 下的 所有文件夹里的 index.js 右键 点击 **云函数增量上传：更新文件**
-
-9. 将云数据库 所有 集合 的 数据权限 改为 第一个“所有用户可读，仅创建者可读写”
-
-10. 将小程序 调试基础库 改为 2.22.1 或以上 版本 （因为 MapContext.setBoundary接口 从基础库 2.22.0 开始支持）
-
-11. 清空缓存，重新编译。**点击预览-在手机端预览**，在手机上就可以用了。
-
-12. 把所有信息改成你自己学校后可以进行发行（ 如果你使用了我的项目或者代码，记得在小程序的某个页面 **标明出处或有所声明** ）。
-
-13. CSDN：[云上高校导航 小程序 开发教程](https://blog.csdn.net/weixin_45940369/article/details/130613289) 实在太长了就放CSDN了，见谅。
-
-14. 小程序发行教程（以后再说吧）
+9. CSDN：[小程序 发行 / 发布 教程](https://blog.csdn.net/weixin_45940369/article/details/130693653)
 
 ---
 # 🔬 注意事项
@@ -236,4 +199,4 @@ https://servicewechat.com
 
 ![thank](https://s1.ax1x.com/2023/04/16/p99GwFS.png)
 
-&emsp;&emsp;同时也要感谢b站 @宙克儿 帮忙测试云开发项目的安装，帮我找出了许多问题
+&emsp;&emsp;同时也要感谢b站 @宙克儿 帮忙测试云开发项目的安装，帮我找出了许多问题。
