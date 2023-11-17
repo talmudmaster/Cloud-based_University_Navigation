@@ -14,7 +14,7 @@
 “云上高校导航”是一套基于小程序云开发的校园导航类系统开发方案。  
 该开发方案可供开发者进行二次开发，用于解决师生和访客的校园出行需求。
 
-**[B站演示视频](https://www.bilibili.com/video/BV1xV4y1r7de/)**&emsp;&emsp;**[CSDN开发教程](https://blog.csdn.net/weixin_45940369/category_12316374.html)**
+**[B站演示视频](https://www.bilibili.com/video/BV1xV4y1r7de/)**&emsp;&emsp;**[CSDN开发教程](https://blog.csdn.net/weixin_45940369/article/details/129279263)**
 
 仅需修改部分代码和云端数据，即可**适配任意校园**  
 
@@ -132,7 +132,7 @@
 |  ----  | ----  |
 |  Gitee  | [云上高校导航](https://gitee.com/talmudmaster/Cloud-based_University_Navigation)  |
 |  GitHub  | [Cloud-based_University_Navigation](https://github.com/talmudmaster/Cloud-based_University_Navigation)  |
-|  CSDN  | [云上高校导航 小程序 开发教程](https://blog.csdn.net/weixin_45940369/category_12316374.html)  |
+|  CSDN  | [配置-安装-部署 教程](https://blog.csdn.net/weixin_45940369/article/details/129279263)  |
 </div>
 
 2. 小程序运行现状  
@@ -141,19 +141,22 @@
 ---
 # ⚙ 安装教程
 
-&emsp;实在太长了就放CSDN了，见谅
+&emsp;最新项目放在了另一个仓库，前往获取：[桂院校园导航小程序](https://github.com/talmudmaster/GLU-Campus-Guide)
 
-1. [导入与配置教程](https://blog.csdn.net/weixin_45940369/article/details/130918816)
+&emsp;教程实在太长了就放CSDN了，见谅
 
+&emsp;&ensp;汇总：[配置-安装-部署 教程](https://blog.csdn.net/weixin_45940369/article/details/129279263)（最新的教程和有不懂的就看这里）
+
+1. [导入与配置教程](https://blog.csdn.net/weixin_45940369/article/details/130938418)
 2. 修改项目/二次开发：
-- CSDN：[云开发项目复刻教程](https://blog.csdn.net/weixin_45940369/article/details/130693234) **不感兴趣或没时间可以不看，直接看下面的**
-- CSDN：[云开发项目二次开发教程](https://blog.csdn.net/weixin_45940369/article/details/130695720)
+- [静态项目二次开发教程 1.3](https://blog.csdn.net/weixin_45940369/article/details/134191166)
+- [云开发项目二次开发教程 1.3](https://blog.csdn.net/weixin_45940369/article/details/134180416)
 
 3. **刷新或重启** 项目
 
-4. CSDN：[小程序 发行 / 发布 教程](https://blog.csdn.net/weixin_45940369/article/details/130693653)
+4. [开发指引 与 注意事项](https://blog.csdn.net/weixin_45940369/article/details/130918773)
 
-5. CSDN：[开发指引 与 注意事项](https://blog.csdn.net/weixin_45940369/article/details/130918773)
+5. [小程序 发行 / 发布 教程](https://blog.csdn.net/weixin_45940369/article/details/130693653)
 
 ---
 # 🧾 参考资料
@@ -162,7 +165,25 @@
 - [莞香广科 · 校园导览](https://gitee.com/hm_anwei/school-map)
 - [信科校园导览](https://gitee.com/talmudmaster/GIIT-campus-guide)
 - [地大校园导航](https://gitee.com/min_yue/CUG_Campus-navigation)
+- [西海岸导览](https://gitee.com/tfnmdmx-gitee/xhaGuide)
 - [案例分享丨如何设计校园导航系统](https://itc.jnmc.edu.cn/2021/0621/c1949a121868/pagem.htm)
+
+---
+# 🤝 交流讨论
+
+开发者
+- QQ：229600398
+- 微信：qq229600398
+
+开发交流群
+- QQ群：815075137
+- 微信群：加微信，拉你进群（因为群二维码会过期）
+
+---
+# 🪁 二创作品
+
+期待您的作品！！！  
+私聊发我小程序截图，我会在这里放出来。
 
 ---
 # 📒 开源许可证
