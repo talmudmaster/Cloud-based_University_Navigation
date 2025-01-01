@@ -151,9 +151,9 @@
 
 |  平台  |  网址  |
 |  -  | -  |
-|  Gitee  | [云上高校导航](https://gitee.com/talmudmaster/Cloud-based_University_Navigation)  |
-|  GitHub  | [Cloud-based_University_Navigation](https://github.com/talmudmaster/Cloud-based_University_Navigation)  |
-|  CSDN  | [配置-安装-部署 教程](https://blog.csdn.net/weixin_45940369/article/details/129279263)  |
+|  Gitee  | [**云上高校导航**](https://gitee.com/talmudmaster/Cloud-based_University_Navigation)  |
+|  GitHub  | [**Cloud-based_University_Navigation**](https://github.com/talmudmaster/Cloud-based_University_Navigation)  |
+|  CSDN  | [**校园导航小程序 开发全流程教程**](https://blog.csdn.net/weixin_45940369/article/details/130613289)  |
 </div>
 
 2. 小程序运行现状  
